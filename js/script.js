@@ -151,7 +151,7 @@ class ChicagoDashboard {
 
     this.carouselInterval = setInterval(() => {
       this.nextSlide();
-    }, 3000);
+    }, 2000);
   }
 
   nextSlide() {
