@@ -203,6 +203,8 @@ class ChicagoDashboard {
   }
 
   switchTab(tabId) {
+    const container = document.getElementById("tab-div");
+    container.scrollTo({ top: 0});
     this.tabButtons.forEach((btn) => {
       btn.classList.remove(
         "border-chicago-red",
